@@ -57,7 +57,7 @@ class CNN_node():
         # set the blob, label and graph
         self.device = mvnc.Device(self.devices[0])
         self.device.OpenDevice()
-        network_blob = home + "/" + self.model + '.graph'
+        network_blob = "/home" + "/" + self.model + '.graph'
         
         ###for docker image
         #network_blob =  "/home/" + self.model + '.graph'
