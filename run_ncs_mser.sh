@@ -3,7 +3,7 @@
 
 set -e
 
-source /home/software/docker/env.sh
+source /home/duckietown_text/docker/env.sh
 
 roslaunch text_navigation cnn_mser_text.launch veh:=$HOSTNAME
 
